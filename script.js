@@ -104,7 +104,7 @@ function toggleDarkMode() {
     document.body.classList.toggle("dark");
 }
 
-/* Keyboard Shortcuts */
+/* Keyboard Support */
 
 document.addEventListener("keydown", function(event) {
 

@@ -4,50 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Student Calculator</title>
+
+    <title>Advanced Calculator</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="calculator">
+    <div class="container">
 
-        <h1>Advanced Student Calculator</h1>
+        <div class="calculator">
 
-        <button class="dark-btn" onclick="toggleDarkMode()">
-            Toggle Dark Mode
-        </button>
+            <h1>Advanced Calculator</h1>
 
-        <p class="info">
-            Press Enter to Add | Press Escape to Clear
-        </p>
+            <p class="subtitle">
+                Smart Student Calculator
+            </p>
 
-        <input type="number" id="num1" placeholder="Enter First Number">
+            <button class="theme-btn" onclick="toggleDarkMode()">
+                Toggle Dark Mode
+            </button>
 
-        <input type="number" id="num2" placeholder="Enter Second Number">
+            <input type="number" id="num1" placeholder="Enter First Number">
 
-        <div class="buttons">
+            <input type="number" id="num2" placeholder="Enter Second Number">
 
-            <button onclick="add()">Add</button>
+            <div class="buttons">
 
-            <button onclick="subtract()">Subtract</button>
+                <button onclick="add()">+</button>
 
-            <button onclick="multiply()">Multiply</button>
+                <button onclick="subtract()">−</button>
 
-            <button onclick="divide()">Divide</button>
+                <button onclick="multiply()">×</button>
 
-            <button onclick="percentage()">Percentage</button>
+                <button onclick="divide()">÷</button>
 
-            <button onclick="power()">Power</button>
+                <button onclick="percentage()">%</button>
 
-            <button onclick="squareRoot()">Square Root</button>
+                <button onclick="power()">Power</button>
 
-            <button onclick="clearFields()">Clear</button>
+                <button onclick="squareRoot()">√</button>
+
+                <button onclick="clearFields()">Clear</button>
+
+            </div>
+
+            <h2 id="result">Result:</h2>
+
+            <p class="keyboard-info">
+                Enter → Add | Escape → Clear
+            </p>
 
         </div>
-
-        <h2 id="result">Result:</h2>
 
     </div>
 
