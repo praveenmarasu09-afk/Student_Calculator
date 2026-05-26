@@ -56,6 +56,39 @@ function clearFields() {
 
     showResult("");
 }
+function percentage() {
+
+    let values = getValues();
+
+    let result = (values.num1 / 100) * values.num2;
+
+    showResult(result);
+}
+
+function power() {
+
+    let values = getValues();
+
+    let result = values.num1 ** values.num2;
+
+    showResult(result);
+}
+
+function squareRoot() {
+
+    let num1 = Number(document.getElementById("num1").value);
+
+    if (num1 < 0) {
+
+        showResult("Invalid Input");
+
+        return;
+    }
+
+    let result = Math.sqrt(num1);
+
+    showResult(result);
+}
 
 function showResult(result) {
 
