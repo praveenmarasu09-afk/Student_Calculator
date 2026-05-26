@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Student Calculator</title>
-    <p>Press Enter to Add Numbers</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Student Calculator</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <div class="calculator">
-        <h1>Calculator</h1>
 
-        <input type="number" id="num1" placeholder="First Number">
-        <input type="number" id="num2" placeholder="Second Number">
+        <h1>Advanced Student Calculator</h1>
 
-        
-        <button onclick="add()">Add</button>
-        <button onclick="subtract()">Subtract</button>
-        <button onclick="multiply()">Multiply</button>
-        <button onclick="divide()">Divide</button>
-        <button onclick="clearFields()">Clear</button>
-        <button onclick="percentage()">Percentage</button>
-        <button onclick="power()">Power</button>
-        <button onclick="squareRoot()">Square Root</button>
+        <button class="dark-btn" onclick="toggleDarkMode()">
+            Toggle Dark Mode
+        </button>
 
-        <h2 id="result">Result: </h2>
+        <p class="info">
+            Press Enter to Add | Press Escape to Clear
+        </p>
+
+        <input type="number" id="num1" placeholder="Enter First Number">
+
+        <input type="number" id="num2" placeholder="Enter Second Number">
+
+        <div class="buttons">
+
+            <button onclick="add()">Add</button>
+
+            <button onclick="subtract()">Subtract</button>
+
+            <button onclick="multiply()">Multiply</button>
+
+            <button onclick="divide()">Divide</button>
+
+            <button onclick="percentage()">Percentage</button>
+
+            <button onclick="power()">Power</button>
+
+            <button onclick="squareRoot()">Square Root</button>
+
+            <button onclick="clearFields()">Clear</button>
+
+        </div>
+
+        <h2 id="result">Result:</h2>
+
     </div>
 
     <script src="script.js"></script>
+
 </body>
+
 </html>

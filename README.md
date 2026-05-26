@@ -1,6 +1,6 @@
-# Student Calculator
+# Advanced Student Calculator
 
-A simple calculator web application created while learning Git and GitHub.
+A responsive calculator web application created while learning Git and GitHub.
 
 ## Features
 
@@ -8,8 +8,12 @@ A simple calculator web application created while learning Git and GitHub.
 - Subtraction
 - Multiplication
 - Division
-- Clear button
-- Divide-by-zero validation
+- Percentage Calculation
+- Power Calculation
+- Square Root
+- Dark Mode Toggle
+- Keyboard Shortcuts
+- Responsive Mobile Design
 
 ## Technologies Used
 
@@ -17,23 +21,17 @@ A simple calculator web application created while learning Git and GitHub.
 - CSS
 - JavaScript
 
-## Project Structure
+## Keyboard Shortcuts
 
-student-calculator
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+| Key | Action |
+|-----|--------|
+| Enter | Add Numbers |
+| Escape | Clear Fields |
 
 ## How To Run
 
-1. Download the project
-2. Open index.html in browser
-
-## GitHub Pages Deployment
-
-This project is deployed using GitHub Pages.
+1. Download or clone the repository
+2. Open `index.html` in browser
 
 ## Author
 
